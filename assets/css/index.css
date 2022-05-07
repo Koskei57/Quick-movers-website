@@ -6,9 +6,6 @@
     list-style: none;
     font-family: 'Adamina', serif;
     font-family: 'Poppins', sans-serif;
-    
-
-
 }
 .section{
     background-image: url(../images/moving\ 1.png);
@@ -42,20 +39,22 @@ nav ul li a{
     padding: 0px 0px;
     position: relative;
     top: -50px;
-    right: -700px;   
+    right: -650px;   
 }
 nav a.active{
     background-color: yellow;
     color: black;
+    border: 2px solid white;
 }
 nav a.active1{
     background-color: black;
+    border: 3px solid black;
 }
 nav a:hover{
     color: blue;
 }
 .par{
-    font-size:4em;
+    font-size:3em;
     justify-content: space-between;
     position: relative;
     bottom: 30px;
@@ -66,18 +65,33 @@ nav a:hover{
     font-size: xx-large;
     justify-items: flex-start;
     position: relative;
-    top: 100px;
+    top: 70px;
 }
-/*.par{
+.cut
+{
     position: relative;
-    top: 150px;
-    left: -800px;
-    font-size: xx-large;
+    left: 800px;
+    top: -300px;
 }
-.par1{
+.but1{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    border-style: groove;
+    border-right: hidden;
+}
+.movers{
     position: relative;
-    top: 400px;
-    float: left;
-    right: 1080px;
-    font-size: 30px;
-}*/
+    top: 40px;
+    right: -100px;
+    align-items: center;
+    justify-content: space-between;
+}
+#pic1{
+    position: relative;
+    right: 800px;
+    max-width: 500px;
+    top: 350px;
+}
+
+
