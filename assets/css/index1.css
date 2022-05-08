@@ -53,6 +53,11 @@ div ul li a:hover{
     left: -200px;
 
 }
+.input{
+    position: relative;
+    right: -20px;
+    justify-content: space-evenly;
+}
 .desc{
     position: relative;
     top: 100px;
