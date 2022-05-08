@@ -27,7 +27,7 @@ div ul li a:hover{
 }
 .button{
     background-color: yellow;
-    color: #FFAC12-+;
+    color: black;
     padding: 10px;
     border-radius: 1px 10px 0px 0px;
 }
@@ -44,6 +44,14 @@ div ul li a:hover{
     position: relative;
     left: 100px;
     top: 50px;
+}
+.profile{
+    display: inline-block;
+    float:right;
+    position: relative;
+    top: -500px;
+    left: -200px;
+
 }
 .desc{
     position: relative;
