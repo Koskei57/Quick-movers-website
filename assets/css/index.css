@@ -30,7 +30,7 @@ nav ul li{
     padding-top: 50px;
     margin-left: 80px;
     margin: 20px;
-    float:left;
+
     
 
 }
@@ -84,8 +84,7 @@ nav a:hover{
     position: relative;
     top: 40px;
     right: -100px;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #pic1{
     position: relative;
@@ -93,6 +92,13 @@ nav a:hover{
     max-width: 500px;
     top: 350px;
 }
-.container1{
-    
+.pic2{
+    float: left;
+    padding: 4px;
 }
+.movers::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
