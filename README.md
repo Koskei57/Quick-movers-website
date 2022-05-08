@@ -11,7 +11,7 @@ As a user of the application,you will be able to:
 *Acces to internet
 *Access to a computer or a mobile phone.
 ## live-link
-link=
+link=https://koskei57.github.io/Quick-movers-website/
 ## Installation
 For one to use the website, you will have to git clone the repository link into your visual code and run the html file.
 * This is achieved using:
