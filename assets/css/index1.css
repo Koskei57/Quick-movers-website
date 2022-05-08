@@ -1,0 +1,55 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+nav{
+    background-color: rgb(12, 12, 12);
+}
+.navbar ul{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+div ul li{
+    display: inline;
+    margin-inline: 25px;
+}
+div ul li a{
+    color: white;
+    font-size: large;
+    position: relative;
+    left: 700px;
+    background-color: black;
+}
+div ul li a:hover{
+    color: purple;
+}
+.button{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 1px 10px 0px 0px;
+    color: black;
+}
+.modern{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: black;
+}
+#id{
+    background-color: black;
+}
+.mwili{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.desc{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#p1{
+    justify-content: space-between;
+}
