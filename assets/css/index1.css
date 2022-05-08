@@ -27,6 +27,7 @@ div ul li a:hover{
 }
 .button{
     background-color: yellow;
+    color: #FFAC12-+;
     padding: 10px;
     border-radius: 1px 10px 0px 0px;
     color: black;
@@ -50,6 +51,20 @@ div ul li a:hover{
     top: 100px;
     left: 100px;
 }
-#p1{
-    justify-content: space-between;
+p:first-child{
+    margin-bottom: 10px
+ }
+ p:last-child{
+    margin-top: 10px
+ }
+.feat{
+    display: table;
+    content: "";
+    position: relative;
+    top: 150px;
+    right: -90px;
+
+}
+.tr1{
+    display: table;
 }
